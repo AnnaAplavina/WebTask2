@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 600px) {
     html{
-      font-size: 10px;
+      font-size: 13px;
     }
 }
 
@@ -172,14 +172,33 @@ body {
     margin-top: 1em;
 }
 
+@media screen and (max-width: 600px) {
+    .under-photo-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .profile-interaction-btn{
     width: 45%;
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .profile-interaction-btn:last-child{
+        margin-top: 1em;
+    }
+}
+
 .profile-news-btn{
     width: 60%;
     margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-news-btn{
+        width: 36%;
+    }
 }
 
 .profile-friends-block{
